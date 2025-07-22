@@ -1225,7 +1225,6 @@ static struct symbol *sym_check_choice_deps(struct symbol *choice)
 	struct symbol *sym, *sym2;
 	struct property *prop;
 	struct expr *e;
-	struct dep_stack stack;
 	static struct dep_stack stack;
 
 	dep_stack_insert(&stack, choice);
